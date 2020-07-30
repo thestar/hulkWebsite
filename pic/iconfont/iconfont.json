@@ -1,0 +1,107 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1077",
+      "name": "食物",
+      "font_class": "shiwu",
+      "unicode": "f0094",
+      "unicode_decimal": 983188
+    },
+    {
+      "icon_id": "909150",
+      "name": "i-睡眠监测器",
+      "font_class": "shuimianjianceqi",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "988847",
+      "name": "睡眠",
+      "font_class": "icon",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "1104539",
+      "name": "其它类_灯光",
+      "font_class": "qitaleidengguang",
+      "unicode": "e9e2",
+      "unicode_decimal": 59874
+    },
+    {
+      "icon_id": "1358439",
+      "name": "情绪",
+      "font_class": "qingxu",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "1898863",
+      "name": "linkedin",
+      "font_class": "linkedin",
+      "unicode": "e6ce",
+      "unicode_decimal": 59086
+    },
+    {
+      "icon_id": "2087570",
+      "name": "运动",
+      "font_class": "yundong",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "2767697",
+      "name": "情绪",
+      "font_class": "icon-",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "5737686",
+      "name": "食物-5",
+      "font_class": "shiwu-",
+      "unicode": "ebc8",
+      "unicode_decimal": 60360
+    },
+    {
+      "icon_id": "5737688",
+      "name": "食物-8",
+      "font_class": "shiwu-1",
+      "unicode": "ebc9",
+      "unicode_decimal": 60361
+    },
+    {
+      "icon_id": "7141567",
+      "name": "twitter",
+      "font_class": "twitter",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "8347786",
+      "name": "饮料",
+      "font_class": "Drinks",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "10971987",
+      "name": "facebook",
+      "font_class": "facebook",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "11968753",
+      "name": "google",
+      "font_class": "google",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    }
+  ]
+}

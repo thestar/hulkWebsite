@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css?family=Cambay&display=swap');
+@font-face { 
+font-family: 'appleChancery'; 
+src: url('../pic/apple_chancery.ttf'); 
+} 
+@font-face { 
+font-family: 'Luminari'; 
+src: url('../pic/Luminari.ttf.ttf'); 
+} 
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../pic/iconfont/iconfont.eot');
+  src: url('../pic/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+       url('../pic/iconfont/iconfont.woff2') format('woff2'),
+       url('../pic/iconfont/iconfont.woff') format('woff'),
+       url('../pic/iconfont/iconfont.ttf') format('truetype'),
+       url('../pic/iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+	background-color: steelblue;
+	margin: 0;
+	padding: 0;
+	background-image:url(../pic/starBg.png);
+}
+
+ul,li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+#container {
+	width: 80%;
+	background-color: ghostwhite;
+	margin: 0 auto;
+}
+
+header {
+	background-color: lightsteelblue;
+	padding: 20px;
+	text-align: center;
+}
+
+footer {
+	background-color: lightsteelblue;
+	padding: 20px;
+	text-align: center;
+}
+
+footer ul{
+	height: 20px;
+	display: inline-block;
+	margin:0 auto;
+}
+
+footer ul li{
+	float:left;
+	overflow: hidden;
+}
+
+footer p:first-of-type{
+	font-size: 20px;
+}
+
+footer ul li a{
+	color: steelblue;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.block {
+	border: 10px dotted lightyellow;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+
+
+.gridcontainer {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+	grid-gap: 4px;
+}
+
+.gridcontainer2 {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	justify-items: center;
+	grid-gap: 4px;
+}
+
+.gridcontainer > div {
+	/* background-color:lightgoldenrodyellow;*/
+	padding: 10px;
+}
+
+.yes {
+	background-color: darkseagreen;
+}
+
+.no {
+	background-color: antiquewhite;
+}
+
+.yes p span,.no p span{
+	margin-right: 10px;
+}
+
+.red {
+	background-color: palegoldenrod;
+}
+
+.green {
+	background-color: lightgoldenrodyellow;
+}
+
+.purple {
+	background-color: lightyellow;
+}
+
+.pink {
+	background-color: ivory;
+}
+
+.yellow {
+	background-color: white;
+}
+
+.black {
+	background-color: aliceblue;
+}
+
+.white {
+	background-color: lightcyan;
+}
+
+.orange {
+	background-color: lightblue;
+}
+
+.blue {
+	background-color: skyblue;
+}
+
+.grey {
+	background-color: lightskyblue;
+}
+
+.abcd {
+	background-color: deepskyblue;
+}
+
+.bcde {
+	background-color: dodgerblue;
+}
+
+.defg {
+	background-color: royalblue;
+}
+
+
+.center {
+	text-align: center;
+}
+
+/*nav styles */
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+nav  li {
+	float: left;
+	width: 20%;
+	display:inline-block;
+}
+
+nav  li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	position:relative;
+}
+
+nav  li a img{
+
+}
+
+nav a.active:after {
+	width: 100%;
+    height: 3px;
+    background: #337ab7;
+    position: absolute;
+    bottom: 0;
+}
+
+/*.....................................................*/
+
+
+nav a:after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #337ab7;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transition: all .2s;
+}
+
+nav a:hover:after,nav a.active:after{
+    left: 0%;
+    width: 100%;
+}
+
+/* Typography styles */
+
+h1 {
+	font-family: 'Cambay', sans-serif;
+	font-size: 2rem;
+	color: cornflowerblue;
+}
+
+p {
+	font-family: 'Cambay', sans-serif;
+}
+
+h2 {
+	font-family: 'Cambay', sans-serif;
+	font-size: 2rem;
+	color: cornflowerblue;
+}
+
+h3 {
+	font-family: 'Cambay', sans-serif;
+	font-size: 2rem;
+	color: palevioletred;
+}
+
+h4 {
+	font-family: 'Cambay', sans-serif;
+	font-size: 2rem;
+	color: lightgreen;
+}
+
+h5 {
+	font-family: 'Cambay', sans-serif;
+	font-size: 2rem;
+	color: dimgrey;
+}
+
+/*@media screen and  (max-width:480px) {
+	body {background-color: white;}
+
+#container {backgrou
+nd-color:azure}
+}*/
+
+/* media rule for tablets*/
+
+@media screen and (max-width:480px)and (max-width: 1024px) {
+	body {
+		background-color: lightblue;
+		background-image:url(../pic/starBg.png);
+	}
+
+	#container {
+		background-color: aliceblue
+	}
+}
+
+/* media rule for desktop*/
+
+@media only screen and (min-width: 1250px) and (max-width:2000px) {
+	CSS rules for this query go in this space
+}
+
+.home .dec{
+	font-family: 'appleChancery';
+	font-weight: bold;
+}
+
+.aninmationImg{
+
+}
+
+.aninmationImg li{
+	width: 30%;
+	height: 100px;
+	float:left;
+	margin-right: 20px;
+	overflow: hidden;
+}
+
+.aninmationImg li:hover div{
+	tra
+}
+
+.aninmationImg li:last-of-type{
+	margin-right:0;
+}
+
+.aninmationImg li img{
+	width:100%;
+	height: 100px;
+}
+
+.aninmationImg li p{
+	width:100%;
+	height: 100px;
+	text-align: center;
+	vertical-align: center;
+	background: #ccc;
+	color:#fff;
+	font-size: 16px;
+}
+
+.aboutme .contain{
+	padding:0 50px;
+}
+
+.aboutme .contain h5{
+	text-align: center;
+}
+
+/*swiper*/
+.slideBox {
+    margin:50px auto;
+    height:400px;
+    position:relative;
+    overflow:hidden;
+}
+.slideBox ul {
+    position:relative;
+    width:2000px;}
+.slideBox ul li {
+    float:left;
+    width:300px;
+    height:480px;
+    position:relative;
+    
+}
+.spanBox {
+    position:absolute;
+    width:300px;
+    height:20px;
+    bottom:10px;
+    left:80px;
+}
+.spanBox span {
+    width:18px;
+    height:18px;
+    margin-left:5px;
+    background-color:#fff;
+    float:left;
+    line-height:16px;
+    text-align:center;
+    text-shadow:2px 2px 2px #C5EBF0;
+    font-family:cabin-sketch;
+    font-size:15px;
+    border-radius: 100%;
+}
+.slideBox .spanBox .active {
+    background-color:rgb(176, 196, 222);
+    border:solid 1px #BEEBEC;
+}
+.prev {
+    position:absolute;
+    left:0px;
+    top:320px;
+    float:left;
+    border-left:solid 1px rgba(251,245,246,1.00);
+    opacity:0.5;
+}
+.next {
+    width:15px;
+    height:50px;
+    position:absolute;
+    right:0px;
+    top:320px;
+    float:right;
+    border-right:solid 1px rgba(245,237,237,1.00);
+    opacity:0.5
+}
+
+.grid .contain{
+	padding:0 50px;
+}
+
+.grid nav ul li a:hover{
+	text-decoration: none;
+}
+
+.grid nav ul li a{
+	font-size: 18px;
+}
+
+.home .center{
+	padding-bottom: 30px;
+}
